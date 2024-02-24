@@ -3,6 +3,8 @@ import requests as r
 import uuid, colorama
 from concurrent.futures import ThreadPoolExecutor
 
+colorama.init(convert=True)
+
 
 class elaina:
     def __init__(self):
